@@ -11,9 +11,8 @@ A website in MVC that uses a method to return how frequently a word appears in a
 
 | Behavior  | Input  | Output  | Explanation |
 |---|---|---|---|
-|1.User will enter a word, and a one word sentence, and the output will reflect 1. | input word: "Hello", input string: "Hello" | 1 | Here, I'm testing for the simplest possible response, to see that input word is being compared correctly with the input sentence and counted for. |
-|2.User will enter a word, as well as a string, and the output will reflect how many times the word appeared in the string.  | input word: "Hi" input string: "Hi, how are you?" | 1 |  Here, I'm testing to see if the application recognizes the user input word, and compares it to the user input string, and is able to identify it accurately.|
-|3.User will enter a word, as well as a string, and the output will not count any characters in the string if they are present. | input word: "Hi", input string: "Hi, how @re you??" | 1 | Here, I'm testing to see if the application only recognize the user input word and ignore the non-alpha numeric characters |
+|1.User will enter a word, and use the word once in a string, and the output will count the word once. | input word: "Hello", input string: "Hello, how are you?" | 1 | Here, I'm testing for the simplest possible response, to see that input word is being compared correctly with the input string and counted for. |
+|2.User will enter a word, as well as a string, and the output will reflect how many times the word appeared in the string.  | input word: "am" input string: "I am happy, I Am sad, I AM lucky, I aM glad?" | 4 |  Here, I'm testing to see if the application recognizes the user input word, and compares it to the user input string, and is able to identify it accurately no matter the capitalization.|
 |4. User will enter a word, as well as a string with the input word present multiply times, and the output will reflect this accurately. | input word: "am", input string: "I am happy, I am sad, I am lucky, I am glad."| 4 | Here, I'm testing to see if the input word will be counted multiple times. |
 
 

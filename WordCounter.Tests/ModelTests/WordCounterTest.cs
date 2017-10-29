@@ -12,15 +12,15 @@ namespace WordCounter.Tests
     public void UserInputWord_CountReapeats_Total()
     {
       //Arrange
-      CountUserWords newUserWord = new CountUserWords("Hello", "Hello");
-      var expected = 1;
+      CountRepeats newWord = new CountRepeats("am", "I am happy, I Am sad, I AM lucky, I aM glad?");
+
+      int expected = 4;
 
       //Action
-      var result = newUserWord.CountWords();
+      int result = newWord.CountWords();
 
       //Assert
       Assert.AreEqual(expected, result);
-      Console.WriteLine(result);
     }
   }
 }
