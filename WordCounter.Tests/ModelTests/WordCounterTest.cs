@@ -12,7 +12,7 @@ namespace WordCounter.Tests
     public void UserInputWord_CountReapeats_Total()
     {
       //Arrange
-      CountRepeats newWord = new CountRepeats("am", "I am happy, I Am sad, I AM lucky, I aM glad?");
+      CountRepeats newWord = new CountRepeats("am", "I am happy, I am sad, I am lucky, I am glad?");
 
       int expected = 4;
 
@@ -20,6 +20,21 @@ namespace WordCounter.Tests
       int result = newWord.CountWords();
 
       //Assert
+      Assert.AreEqual(expected, result);
+    }
+
+    [TestMethod]
+    public void UserInputWord_CountReapeats_TotalCaseSense()
+    {
+      // Arrange
+      CountRepeats newWord = new CountRepeats("am","I am happy, I aM sad, I Am lucky, I AM glad?");
+
+      int expected = 4;
+
+      // Action
+      int result = newWord.CountWords();
+
+      // Assert
       Assert.AreEqual(expected, result);
     }
   }
