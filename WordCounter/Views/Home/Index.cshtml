@@ -1,0 +1,22 @@
+@{
+  Layout = "_Layout";
+}
+<br>
+<form action="/outputresult" method="post">
+  <div class="form-group">
+    <div class="row">
+      <p class="form-control-static" for="UserInputWord">Please enter a word of your choosing: </p>
+      <br>
+      <input id="UserInputWord" name="UserInputWord" type="text">
+    </div>
+    <div class="row">
+      <p for="UserInputString">Please enter a sentence/string/paragraph here:</p>
+      <br>
+      <input id="UserInputString" name="UserInputString" type="text">
+    </div>
+    <div class="row">
+      <p class="control-label col-lg-12" for="wordCounterSubmit">Hit the count button to find out your result!</p>
+      <button type="submit" class="btn btn-success">Count!</button>
+    </div>
+  </form>
+</form>

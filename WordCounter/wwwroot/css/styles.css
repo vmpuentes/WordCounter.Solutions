@@ -1,0 +1,41 @@
+#wc {
+  float: right;
+  width: 25%;
+  height: 25%;
+}
+
+#wc2 {
+  float: left;
+  width: 25%;
+  height: 25%;
+}
+
+.container {
+  background-color: #e32b6f;
+}
+
+.jumbotron {
+  background-image: url("../img/wordcounter.jpg");
+  background-repeat: round;
+}
+
+h1 {
+  font-family: cursive;
+  color: #39aef7;
+  font-weight: bold;
+}
+
+h2 {
+  color: #39aef7;
+  font-weight: bold;
+
+}
+
+h3 {
+  color: #39aef7;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bolder;
+}
