@@ -12,8 +12,8 @@ namespace WordCounter.Controllers
    {
      return View();
    }
-   [HttpPost("/count")]
-     public ActionResult Count()
+   [HttpPost("/outputresult")]
+     public ActionResult OutputResult()
      {
        CountRepeats newWord = new CountRepeats (
        Request.Form["UserInputWord"],
