@@ -1,41 +1,42 @@
 #wc {
-  float: right;
-  width: 25%;
-  height: 25%;
+  float: left;
 }
 
-#wc2 {
-  float: left;
-  width: 25%;
-  height: 25%;
+#titles {
+  color: #39aef7;
 }
 
 .container {
-  background-color: #e32b6f;
+  background-color: #323c47;
 }
 
 .jumbotron {
   background-image: url("../img/wordcounter.jpg");
-  background-repeat: round;
+  background-repeat: space;
+  background-position: bottom;
 }
 
 h1 {
-  font-family: cursive;
+  font-family: serif;
   color: #39aef7;
   font-weight: bold;
 }
 
 h2 {
+  font-family: serif;
   color: #39aef7;
   font-weight: bold;
 
 }
 
 h3 {
+  font-family: serif;
   color: #39aef7;
   font-weight: bold;
 }
 
 p {
-  font-weight: bolder;
+  color: #39aef7;
+  font-size: 32px;
+  font-size: 32px;
 }

@@ -1,7 +1,8 @@
 @{
   Layout = "_Layout";
 }
-  <label for="outputResult">WordCounter Output:@Model.CountWords()</label>
+@* <img id="wc" src="/img/wordcounter.jpg"> *@
+  <p>WordCounter Output:@Model.CountWords()</p>
   <output id="outputResult" name="outputResult" type="text">
     <form id="homepage" action="/">
   <button type="submit" class="btn btn-success">Go back to homepage</button>
